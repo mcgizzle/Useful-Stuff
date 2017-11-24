@@ -12,6 +12,6 @@ Connect to Database |`\connect <name>`
 ## Databases and Users
 Tool | Command |
 --- | --- |
-Create User      |`createuser <name>`
-Create Database  |`createdb <name>;`
+Create Database  |`CREATE ROLE <name> WITH LOGIN PASSWORD '<password>';`
+Create User      |`CREATE DATABASE <name>;`
 Grant Privilege  |`GRANT ALL PRIVILEGES ON DATABASE <database> TO <user>;`
