@@ -15,3 +15,4 @@ Tool | Command |
 Create Database  |`CREATE ROLE <name> WITH LOGIN PASSWORD '<password>';`
 Create User      |`CREATE DATABASE <name>;`
 Grant Privilege  |`GRANT ALL PRIVILEGES ON DATABASE <database> TO <user>;`
+Show Tables      |`\dt`
