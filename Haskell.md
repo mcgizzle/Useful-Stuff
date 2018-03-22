@@ -6,3 +6,10 @@
 
   1. Pipes
   2. Lens
+
+
+### Things I want to learn
+
+*Servant*
+
+  * Authentication
