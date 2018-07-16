@@ -7,6 +7,7 @@ Start Console       |`psql postgres`
 List Users          |`\du`
 List Databases      |`\list`
 Connect to Database |`\connect <name>`
+Exit Console        | `\q`
 
 
 ## Databases and Users
