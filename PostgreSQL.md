@@ -26,5 +26,5 @@ Grant Privilege    |`GRANT ALL PRIVILEGES ON DATABASE <database> TO <user>;`
 Tool | Command |
 --- | --- |
 List Schemas       |`\dn`
-Show Schema Tables |`SELECT * FROM "<schema>".tables;`
+List Schema Tables |`\dt <schema>.*`
 
