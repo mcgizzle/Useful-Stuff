@@ -1,4 +1,4 @@
-# Useful console commands
+# Psql Console Commands
 
 ## Basics
 Tool | Command |
@@ -7,13 +7,24 @@ Start Console       |`psql postgres`
 List Users          |`\du`
 List Databases      |`\list`
 Connect to Database |`\connect <name>`
-Exit Console        | `\q`
+Exit Console        |`\q`
 
 
-## Databases and Users
+## Databases 
 Tool | Command |
 --- | --- |
-Create User      |`CREATE ROLE <name> WITH LOGIN PASSWORD '<password>';`
-Create Database  |`CREATE DATABASE <name>;`
-Grant Privilege  |`GRANT ALL PRIVILEGES ON DATABASE <database> TO <user>;`
-Show Tables      |`\dt`
+List Tables        |`\dt`
+Create Database    |`CREATE DATABASE <name>;`
+
+## Users
+Tool | Command |
+--- | --- |
+Create User        |`CREATE ROLE <name> WITH LOGIN PASSWORD '<password>';`
+Grant Privilege    |`GRANT ALL PRIVILEGES ON DATABASE <database> TO <user>;`
+
+## Schemas
+Tool | Command |
+--- | --- |
+List Schemas       |`\dn`
+Show Schema Tables |`SELECT * FROM "<schema>".tables;`
+
